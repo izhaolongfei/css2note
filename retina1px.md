@@ -1,4 +1,5 @@
 # method-1: text-shadow
+``` css
 .border-top-1px(@color: '#333') {
 box-shadow: 0px 1px 1px -1px @color inset;
 -webkit-box-shadow: 0px 1px 1px -1px @color inset;
@@ -13,7 +14,7 @@ box-shadow: 0 1px 1px -1px @color;
 box-shadow: 1px 0px 1px -1px @color inset;
 -webkit-box-shadow: 1px 0px 1px -1px @color inset;
 }
-
+```
 －优点－
 代码量少
 可以满足所有场景
