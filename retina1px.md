@@ -1,4 +1,4 @@
-#method-1: text-shadow
+# method-1: text-shadow
 .border-top-1px(@color: '#333') {
 box-shadow: 0px 1px 1px -1px @color inset;
 -webkit-box-shadow: 0px 1px 1px -1px @color inset;
@@ -20,7 +20,7 @@ box-shadow: 1px 0px 1px -1px @color inset;
 －缺点－
 边框有阴影，颜色变浅
 
-#method-2: position
+# method-2: position
 .border-top-1px(@color: '#333') {
 content: '';
 position: absolute;
